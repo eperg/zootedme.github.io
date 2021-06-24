@@ -1,6 +1,8 @@
 _site
+site
 .DS_Store
 *.swp
 .sass-cache
 *~
 .jekyll-cache
+docker-compose.yml
