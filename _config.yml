@@ -2,8 +2,8 @@
 name: "Internet Daily Deals "
 title: "Internet Daily Deals "
 description: "We strive to help our readers find the best deals on quality products and services"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo-firebolt.svg'
+favicon: 'assets/images/icon.png'
 baseurl: 
 google_analytics: 'G-6XCXLHK0WG'
 disqus: 'demowebsite'
@@ -56,7 +56,7 @@ kramdown:
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "enabled"
+adsense: "disabled"
 adsense-data-ad-client: "ca-pub-4201549272943840"
 adsense-data-ad-slot: "3113137593"
 

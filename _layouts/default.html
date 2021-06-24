@@ -72,13 +72,22 @@
 
 
     <!-- Site Tag
-    ================================================== -->
-    {% if page.url == '/' %}
+    ===========================
+     {% if page.url == '/' %}
         <p class="sitetag">
             {{ site.description }}
         </p>
-    {% endif %}
+    {% endif %}  
 
+  ======================= -->
+
+  {% if page.url == '/' %}
+
+
+    <p class="sitetag">
+    We strive to help our readers find the <span class="badge badge-primary">best deals</span> on quality products and services
+   </p>
+   {% endif %}  
     <!-- Content
     ================================================== -->
     <div class="main-content">
