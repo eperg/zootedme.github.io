@@ -19,15 +19,16 @@ collections:
       - { label: "Featured", name: "image", widget: "image" }
       - { label: "Publish", name: "date", widget: "datetime" }
       - { categories: "Category", name: "categories", widget: "string" }
-      - {
-          label: "Author",
-          name: "author",
-          widget: "relation",
-          # collection: "authors",
-          displayFields: [display_name],
-          searchFields: [display_name],
-          valueField: "name",
-        }
+      - { label: "Author", name: "author", widget: "hidden", default: "jeff" }
+      # - {
+      #     label: "Author",
+      #     name: "author",
+      #     widget: "relation",
+      #     # collection: "authors",
+      #     displayFields: [display_name],
+      #     searchFields: [display_name],
+      #     valueField: "name",
+      #   }
       - { label: "Body", name: "body", widget: "markdown" }
   # - name: "authors"
   #   label: "Authors"
