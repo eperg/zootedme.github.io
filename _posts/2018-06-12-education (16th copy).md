@@ -5,7 +5,7 @@ author: jeff
 categories: [ Moving ]
 image: assets/images/3.jpg
 beforetoc: "Prism highlighter is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post. Tocs is also enabled as you can see in summary."
-toc: trueThere are numerous factors to consider. Before relocating yourself, your family, you must pack, safeguard your affairs, and find a new house. This is an understandably difficult procedure. If you find yourself in this situation, keep these pointers in mind as you prepare to relocate to the Gold Coast.
+toc: true
 
 ---
 Maybe you've just [landed the job of your dreams](https://www.jobssearches.org/blog/tips-for-finding-a-job-in-a-different-state/) on the West Coast. Perhaps you've decided that you need to be closer to the sea. A cross-country move, for whatever reason, can feel like an enormous struggle.
