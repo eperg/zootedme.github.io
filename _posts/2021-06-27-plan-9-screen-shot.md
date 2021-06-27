@@ -5,7 +5,7 @@ author: jeff
 categories:
 - Deals
 toc: true
-image: assets/images/11.jpg
+image: assets/images/banner-786cd6e4708b14b225f1fedb9b5fe7da.png
 beforetoc: This is a 1024x768 screen in 8-bit c
 comments: true
 rating: 4

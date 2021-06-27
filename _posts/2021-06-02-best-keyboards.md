@@ -6,7 +6,7 @@ categories:
 - Deals
 - Moving
 - Gaming
-image: assets/images/15.jpg
+image: assets/images/banner-1-3f549e5d1a677eb5916529f3d0576371.png
 beforetoc: It is worth investing in the best keyboards since you probably use it every
   single day, especially if you are working from home right now due to the global
   pandemic
