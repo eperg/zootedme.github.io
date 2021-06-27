@@ -9,7 +9,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     editor:
-      preview: false
+      preview: true
     fields: # The fields for each document, usually in front matter
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
@@ -27,18 +27,18 @@ collections:
           valueField: "name",
         }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "authors"
-    label: "Authors"
-    folder: "_authors/"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
-      - { label: "Short Name", name: "name", widget: "string" }
-      - { label: "Diplay Name", name: "display_name", widget: "string" }
-      - { label: "Position", name: "position", widget: "string" }
-      
+  # - name: "authors"
+  #   label: "Authors"
+  #   folder: "_authors/"
+  #   create: true
+  #   editor:
+  #     preview: false
+  #   fields:
+  #     - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
+  #     - { label: "Short Name", name: "name", widget: "string" }
+  #     - { label: "Diplay Name", name: "display_name", widget: "string" }
+  #     - { label: "Position", name: "position", widget: "string" }
+  #     - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     
