@@ -14,8 +14,8 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Summary", name: "beforetoc", widget: "string" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured", name: "image", widget: "image" }
+      - { label: "Publish", name: "date", widget: "datetime" }
       - { categories: "Category", name: "categories", widget: "string" }
       - {
           label: "Author",
@@ -39,42 +39,42 @@ collections:
   #     - { label: "Diplay Name", name: "display_name", widget: "string" }
   #     - { label: "Position", name: "position", widget: "string" }
   #     - { label: "Body", name: "body", widget: "markdown" }
-  - name: "pages"
-    label: "Pages"
+  # - name: "pages"
+  #   label: "Pages"
     
-    editor:
-      preview: false
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "about.md"
-        fields:
-          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-          - {
-              label: "Title",
-              name: "title",
-              widget: "hidden",
-              default: "about",
-            }
-          - {
-              label: "Layout",
-              name: "title",
-              widget: "hidden",
-              default: "about",
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
-  - name: "config"
-    label: "Config"
-    editor:
-      preview: false
-    files:
-      - label: "Navigation"
-        name: "navigation"
-        file: "_data/navigation.yml"
-        fields:
-          - label: "Navigation Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: Name, name: name, widget: string }
-              - { label: Link, name: link, widget: string }
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - label: "About Page"
+  #       name: "about"
+  #       file: "about.md"
+  #       fields:
+  #         - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+  #         - {
+  #             label: "Title",
+  #             name: "title",
+  #             widget: "hidden",
+  #             default: "about",
+  #           }
+  #         - {
+  #             label: "Layout",
+  #             name: "title",
+  #             widget: "hidden",
+  #             default: "about",
+  #           }
+  #         - { label: "Body", name: "body", widget: "markdown" }
+  # - name: "config"
+  #   label: "Config"
+  #   editor:
+  #     preview: false
+  #   files:
+  #     - label: "Navigation"
+  #       name: "navigation"
+  #       file: "_data/navigation.yml"
+  #       fields:
+  #         - label: "Navigation Items"
+  #           name: "items"
+  #           widget: "list"
+  #           fields:
+  #             - { label: Name, name: name, widget: string }
+  #             - { label: Link, name: link, widget: string }
