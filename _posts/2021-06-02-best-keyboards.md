@@ -1,16 +1,17 @@
 ---
+title: The Best Keyboards for Typing, Gaming, Wireless, and More
 layout: post
-title:  "The Best Keyboards for Typing, Gaming, Wireless, and More"
 author: jeff
-categories: [ Deals ]
-image: https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_930/https://buytionary.com/wp-content/uploads/2020/08/best-keyboards-930x620.jpeg
-beforetoc: "It is worth investing in the best keyboards since you probably use it every single day, especially if you are working from home right now due to the global pandemic"
-toc: true.
-
+categories:
+- Deals
+- Moving
+- Gaming
+image: assets/images/15.jpg
+beforetoc: It is worth investing in the best keyboards since you probably use it every
+  single day, especially if you are working from home right now due to the global
+  pandemic
+toc: true
 ---
-
-
-
 
 It is worth investing in the **best keyboards** since you probably use it every single day, especially if you are working from home right now due to the global pandemic. Imagine, you are working several hours writing reports, sending documents, and writing codes.
 
