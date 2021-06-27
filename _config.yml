@@ -4,7 +4,7 @@ title: "Internet Daily Deals "
 description: "We strive to help our readers find the best deals on quality products and services"
 logo: 'assets/images/logo-firebolt.svg'
 favicon: 'assets/images/icon.png'
-baseurl: 
+baseurl: https://sleepy-pare-40d573.netlify.app/
 google_analytics: 'G-6XCXLHK0WG'
 disqus: 'demowebsite'
 mailchimp-list: 'https://club.us5.list-manage.com/subscribe/post?u=a839bbbdc37891b132e7db91c&amp;id=d151dabdf3'
