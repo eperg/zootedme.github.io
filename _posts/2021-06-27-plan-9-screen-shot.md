@@ -7,6 +7,7 @@ categories:
 toc: true
 image: assets/images/11.jpg
 beforetoc: This is a 1024x768 screen in 8-bit c
+comment: false
 ---
 
 # This is a 1024x768 screen in 8-bit colormapped mode. (Plan 9 can also run at 16-, 24-, and 32-bit depths.)
